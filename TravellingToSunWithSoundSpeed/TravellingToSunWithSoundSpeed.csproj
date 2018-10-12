@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{28F12088-39A5-4F14-8A4F-A8200FBE69D9}</ProjectGuid>
+    <ProjectGuid>{F98B8E12-7249-4B5D-AFC4-209D9084BF76}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <SubsystemVersion>6.02</SubsystemVersion>
     <AppxPackage>True</AppxPackage>
@@ -13,8 +13,8 @@
     <SDKIdentifier>Windows</SDKIdentifier>
     <SDKVersion>10.0</SDKVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MyUniqueNumber</RootNamespace>
-    <AssemblyName>MyUniqueNumber</AssemblyName>
+    <RootNamespace>TravellingToSunWithSoundSpeed</RootNamespace>
+    <AssemblyName>TravellingToSunWithSoundSpeed</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.17134.0</TargetPlatformVersion>
@@ -22,7 +22,7 @@
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>MyUniqueNumber_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>TravellingToSunWithSoundSpeed_TemporaryKey.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
@@ -109,7 +109,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="MyUniqueNumber_TemporaryKey.pfx" />
+    <None Include="TravellingToSunWithSoundSpeed_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\Default.rd.xml" />

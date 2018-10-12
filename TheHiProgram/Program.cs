@@ -15,7 +15,7 @@ namespace TheHiProgram
         {
 
             Console.WriteLine("Hi I am Tsani!");
-           
+            Console.ReadKey(true);
         }
     }
 }

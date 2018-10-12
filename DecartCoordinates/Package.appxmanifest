@@ -10,14 +10,14 @@
   IgnorableNamespaces="uap mp uap5 iot2 desktop4">
 
   <Identity
-    Name="ee970c3f-7645-4e07-ac4c-baec0040325b"
+    Name="f6dac35c-a439-4fd0-9c0d-7734d7a17943"
     Publisher="CN=teacher"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="ee970c3f-7645-4e07-ac4c-baec0040325b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="f6dac35c-a439-4fd0-9c0d-7734d7a17943" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>MyUniqueNumber</DisplayName>
+    <DisplayName>DecartCoordinates</DisplayName>
     <PublisherDisplayName>teacher</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -34,17 +34,17 @@
     <Application 
       Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="MyUniqueNumber.Program"
+      EntryPoint="DecartCoordinates.Program"
       desktop4:SupportsMultipleInstances="true" 
       desktop4:Subsystem="console" 
       iot2:SupportsMultipleInstances="true" 
       iot2:Subsystem="console">
 
       <uap:VisualElements
-        DisplayName="MyUniqueNumber"
+        DisplayName="DecartCoordinates"
         Square150x150Logo="Assets\Square150x150Logo.png" 
         Square44x44Logo="Assets\Square44x44Logo.png" 
-        Description="MyUniqueNumber" BackgroundColor="transparent">
+        Description="DecartCoordinates" BackgroundColor="transparent">
         <uap:DefaultTile 
           Wide310x150Logo="Assets\Wide310x150Logo.png" 
           Square310x310Logo="Assets\Square310x310Logo.png" 
@@ -56,10 +56,10 @@
       <Extensions>
         <uap5:Extension 
           Category="windows.appExecutionAlias" 
-	        Executable="MyUniqueNumber.exe" 
-          EntryPoint="MyUniqueNumber.Program">
+	        Executable="DecartCoordinates.exe" 
+          EntryPoint="DecartCoordinates.Program">
           <uap5:AppExecutionAlias desktop4:Subsystem="console" iot2:Subsystem="console">
-            <uap5:ExecutionAlias Alias="MyUniqueNumber.exe" />
+            <uap5:ExecutionAlias Alias="DecartCoordinates.exe" />
           </uap5:AppExecutionAlias>
         </uap5:Extension>
       </Extensions>

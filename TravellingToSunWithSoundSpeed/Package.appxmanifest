@@ -10,14 +10,14 @@
   IgnorableNamespaces="uap mp uap5 iot2 desktop4">
 
   <Identity
-    Name="ee970c3f-7645-4e07-ac4c-baec0040325b"
+    Name="d958d1e0-dbe2-42c3-b453-3d34b0401597"
     Publisher="CN=teacher"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="ee970c3f-7645-4e07-ac4c-baec0040325b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="d958d1e0-dbe2-42c3-b453-3d34b0401597" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>MyUniqueNumber</DisplayName>
+    <DisplayName>TravellingToSunWithSoundSpeed</DisplayName>
     <PublisherDisplayName>teacher</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -34,17 +34,17 @@
     <Application 
       Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="MyUniqueNumber.Program"
+      EntryPoint="TravellingToSunWithSoundSpeed.Program"
       desktop4:SupportsMultipleInstances="true" 
       desktop4:Subsystem="console" 
       iot2:SupportsMultipleInstances="true" 
       iot2:Subsystem="console">
 
       <uap:VisualElements
-        DisplayName="MyUniqueNumber"
+        DisplayName="TravellingToSunWithSoundSpeed"
         Square150x150Logo="Assets\Square150x150Logo.png" 
         Square44x44Logo="Assets\Square44x44Logo.png" 
-        Description="MyUniqueNumber" BackgroundColor="transparent">
+        Description="TravellingToSunWithSoundSpeed" BackgroundColor="transparent">
         <uap:DefaultTile 
           Wide310x150Logo="Assets\Wide310x150Logo.png" 
           Square310x310Logo="Assets\Square310x310Logo.png" 
@@ -56,10 +56,10 @@
       <Extensions>
         <uap5:Extension 
           Category="windows.appExecutionAlias" 
-	        Executable="MyUniqueNumber.exe" 
-          EntryPoint="MyUniqueNumber.Program">
+	        Executable="TravellingToSunWithSoundSpeed.exe" 
+          EntryPoint="TravellingToSunWithSoundSpeed.Program">
           <uap5:AppExecutionAlias desktop4:Subsystem="console" iot2:Subsystem="console">
-            <uap5:ExecutionAlias Alias="MyUniqueNumber.exe" />
+            <uap5:ExecutionAlias Alias="TravellingToSunWithSoundSpeed.exe" />
           </uap5:AppExecutionAlias>
         </uap5:Extension>
       </Extensions>
