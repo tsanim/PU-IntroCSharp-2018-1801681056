@@ -16,8 +16,8 @@ namespace CalculateWeightInTheSolarSystem
             double gravitationalRatio;
             double weightOnPlanet;
 
-            Console.WriteLine("Enter your weight in kgs as measured on Earth:");
-            byte weight = byte.Parse(Console.ReadLine());
+            Console.WriteLine("Enter your weight in kgs as measured on Earth: 70");
+            byte weight = 70;
 
 
             Console.WriteLine("1: Mercury");
@@ -25,10 +25,11 @@ namespace CalculateWeightInTheSolarSystem
             Console.WriteLine("3: Earth (You already know the answer)");
             Console.WriteLine("4: Mars");
 
-
-            byte option = byte.Parse(Console.ReadLine());
+            
+            byte option = 70;
 
             switch (option)
+
             {
 
                 case 1:
@@ -51,35 +52,12 @@ namespace CalculateWeightInTheSolarSystem
                     weightOnPlanet = gravitationalRatio * weight;
                     Console.WriteLine($"You weigh approximately {weightOnPlanet}kg on Mars.");
                     break;
-                case 5:
-                    gravitationalRatio = 2.34;
-                    weightOnPlanet = gravitationalRatio * weight;
-                    Console.WriteLine($"You weigh approximately {weightOnPlanet}kg on Jupiter.");
-                    break;
-                case 6:
-                    gravitationalRatio = 1.06;
-                    weightOnPlanet = gravitationalRatio * weight;
-                    Console.WriteLine($"You weigh approximately {weightOnPlanet}kg on Saturn.");
-                    break;
-                case 7:
-                    gravitationalRatio = 0.92;
-                    weightOnPlanet = gravitationalRatio * weight;
-                    Console.WriteLine($"You weigh approximately {weightOnPlanet}kg on Uranus.");
-                    break;
-                case 8:
-                    gravitationalRatio = 1.19;
-                    weightOnPlanet = gravitationalRatio * weight;
-                    Console.WriteLine($"You weigh approximately {weightOnPlanet}kg on Neptune.");
-                    break;
-                case 9:
-                    gravitationalRatio = 0.06;
-                    weightOnPlanet = gravitationalRatio * weight;
-                    Console.WriteLine($"You weigh approximately {weightOnPlanet}kg on Pluto.");
-                    break;
+               
+              
 
                 default:
                     Console.WriteLine("Enter a valid code."); break;
-                    Console.ReadKey(true);
+                    
 
             }
         }

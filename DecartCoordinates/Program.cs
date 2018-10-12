@@ -15,14 +15,14 @@ namespace DecartCoordinates
         {
             
             Console.WriteLine("Let's do some calculations!");
-            Console.Write("Enter Xa: ");
-            double xA = double.Parse(Console.ReadLine());
-            Console.Write("Enter Ya: ");
-            double yA = double.Parse(Console.ReadLine());
-            Console.Write("Enter Xb: ");
-            double xB = double.Parse(Console.ReadLine());
-            Console.Write("Enter Yb: ");
-            double yB = double.Parse(Console.ReadLine());
+            Console.Write("Enter Xa: -7");
+            double xA = -7;
+            Console.Write("Enter Ya: -4 ");
+            double yA = -4;
+            Console.Write("Enter Xb: 17 ");
+            double xB = 17;
+            Console.Write("Enter Yb: 6.5 ");
+            double yB = 6.5;
 
             
             

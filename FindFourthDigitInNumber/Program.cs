@@ -13,7 +13,7 @@ namespace FindFourthDigitInNumber
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("{7-DigitNumber}");
+            Console.WriteLine("Enter a 7-DigitNumber: 9876543 ");
             int number = 9876543;
                 
             if (number < 1000000 || number > 9999999)

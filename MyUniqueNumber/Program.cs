@@ -14,14 +14,15 @@ namespace MyUniqueNumber
         static void Main(string[] args)
         {
             double pi = Math.PI;
-            Console.WriteLine("My age after 10 years will be {AgeAfter10Years}. ");
+           
             int myAge = 19;
             int AgeAfter10Years = myAge + 10;
-            Console.WriteLine("My last digits of my faculty number are {Last4Digits}.");
+            Console.WriteLine($"My age after 10 years will be {AgeAfter10Years}. ");
             int Last4Digits = 1056;
+            Console.WriteLine($"My last digits of my faculty number are {Last4Digits}.");
             double MyUniqueNumber = Math.Round((AgeAfter10Years * Last4Digits) / pi);
 
-            Console.WriteLine("After 10 years I will be {AgeAfter10Years} years old. And my unique number is {MyUniqueNumber}. ");
+            Console.WriteLine($"After 10 years I will be at {AgeAfter10Years} years old. And my unique number is {MyUniqueNumber}. ");
             Console.ReadKey(true);
         }
     }
